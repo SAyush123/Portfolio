@@ -427,6 +427,7 @@ section {
   #contact {
     margin: 1em 2em;
     font-size: 1.3em;
+    overflow: auto;
   }
 
   .skills-container {
@@ -437,5 +438,6 @@ section {
   #project-container {
     flex-wrap: wrap;
     justify-content: center;
+    overflow: scroll;
   }
 }
