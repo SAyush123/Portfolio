@@ -38,6 +38,11 @@ header {
 section {
   scroll-margin-top: 4em;
 }
+a {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 .name {
   padding: 0 5vw;
   font-family: "Nunito", sans-serif;
