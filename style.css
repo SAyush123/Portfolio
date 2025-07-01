@@ -310,3 +310,96 @@ footer {
 section {
   animation: fadeIn 1s ease-in;
 }
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 1em 0;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul li a {
+    padding: 0.5em 1em;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    margin: 1em;
+  }
+
+  #about,
+  #skills,
+  #projects,
+  #contact {
+    margin: 1em;
+    padding: 0.5em;
+    font-size: 1.2em;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-height-width {
+    width: 4em;
+    height: 4em;
+    margin: 0.5em 0;
+  }
+
+  #project-container {
+    flex-direction: column;
+  }
+
+  .p1 {
+    margin: 1em 0;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .contact-logo {
+    width: 2.5em;
+    height: 2.5em;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  header {
+    flex-wrap: wrap;
+  }
+
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero {
+    flex-wrap: wrap;
+    margin: 1em 2em;
+  }
+
+  #about,
+  #skills,
+  #projects,
+  #contact {
+    margin: 1em 2em;
+    font-size: 1.3em;
+  }
+
+  .skills-container {
+    justify-content: center;
+    gap: 1em;
+  }
+
+  #project-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
