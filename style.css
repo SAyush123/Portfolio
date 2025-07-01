@@ -49,6 +49,7 @@ section {
 a {
   word-wrap: break-word;
   overflow-wrap: break-word;
+  word-break: break-all;
 }
 
 .name {
